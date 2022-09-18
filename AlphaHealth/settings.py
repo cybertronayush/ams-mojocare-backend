@@ -42,7 +42,7 @@ INSTALLED_APPS = [
     'Patients',
     'rest_framework',
     'rest_framework.authtoken',
-    'whitenoise.runserver_nostatic',
+
 ]
 
 REST_FRAMEWORK = {
@@ -95,9 +95,9 @@ DATABASES = {
 }
 
 
-WHITENOISE_USE_FINDERS = True
+# WHITENOISE_USE_FINDERS = True
 
-STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+# STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
 
