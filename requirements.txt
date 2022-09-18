@@ -4,3 +4,8 @@ Django
 sqlparse 
 tzdata  
 wincertstore==0.2
+djangorestframework==3.13.1
+djangorestframework-simplejwt==5.2.0
+Markdown==3.4.1
+PyJWT==2.4.0
+pytz==2022.2.1
